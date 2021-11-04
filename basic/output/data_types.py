@@ -7,4 +7,4 @@ weight = float(input("How many kg do you have?\n"))
 bmi = weight / height**2
 bmi_last = round(bmi, 2)
 bmi_last = "{:.2f}".format(bmi)
-print(f"{name_cap} you are {age} years old and your bmi is {bmi_last}.")
+print(f"{name_cap} you are {age} years old and your BMI is {bmi_last}.")
