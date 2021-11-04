@@ -1,10 +1,18 @@
 {
   "files": {
+    "basic/output/user_input.py.py": [
+      {
+        "id": "742e3158-9e72-44a3-9537-6781ffc332b9",
+        "line": 5,
+        "version": 1,
+        "index": 95
+      }
+    ],
     "main.py": [
       {
         "id": "01253f8f-acda-4cc0-9770-3ae4420944fe",
         "line": 1,
-        "version": 137,
+        "version": 856,
         "index": 0
       }
     ]
