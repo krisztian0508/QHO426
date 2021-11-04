@@ -19,21 +19,21 @@
     "main.py": [
       {
         "id": "9a89d834-a8a8-496f-82b1-c209ba4fb7fd",
-        "line": 2,
-        "version": 2711,
-        "index": 67
+        "line": 1,
+        "version": 3149,
+        "index": 0
       },
       {
         "id": "4b5ee44b-0fba-4522-9b65-96ddddab4441",
-        "line": 3,
-        "version": 2706,
-        "index": 132
+        "line": 1,
+        "version": 3149,
+        "index": 0
       },
       {
         "id": "c28db385-7df0-4217-8902-f05d472ed9c6",
-        "line": 12,
-        "version": 2101,
-        "index": 208
+        "line": 1,
+        "version": 3149,
+        "index": 0
       }
     ]
   }
