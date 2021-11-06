@@ -1,6 +1,5 @@
 # Ask user for markings
-print("What strange markings do you see?")
-markings = input()
+markings = input("What strange markings do you see?\n")
 
 # Identify markings
 # a word between "\n" has an empty row up and an empty row down
