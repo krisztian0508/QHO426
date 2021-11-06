@@ -8,7 +8,7 @@ cables = int(input("How many cables should I remove?\n"))
 print()
 
 while (cables_removed < cables):
+    cables_removed += 1
     print("Removed cable.")
     #put the condition until the condition is going to be false and the function to stop running
-    cables_removed += 1
- 
+   
