@@ -12,3 +12,11 @@ while (cables_removed < cables):
     print("Removed cable.")
     #put the condition until the condition is going to be false and the function to stop running
    
+'''cables_to_remove = int(input("\nHow many cables should I remove?\n"))
+cables_removed = 0
+i = cables_removed
+j = cables_to_remove
+print()
+while i < j:
+  i += 1
+  print("Removed cable.")'''

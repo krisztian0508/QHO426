@@ -1,5 +1,7 @@
 # Ask user for phrase
 phrase = input("Please enter a phrase?\n")
+#count how many characters (inclusiv space) the user will write
+len(phrase)
 # Declare a control variable
 bops = 0
 # space
@@ -8,3 +10,8 @@ print()
 while (bops < len(phrase)):
     print("Bop ", end="")
     bops += 1
+
+#without while
+'''phrase = input("Please enter a phrase: ")
+x = len(phrase)
+print(x * " Bop")'''

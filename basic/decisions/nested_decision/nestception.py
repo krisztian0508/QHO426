@@ -1,5 +1,6 @@
 # ask user what to do
-first_ask = input("Where should I look?\n")    
+first_ask = input("Where should I look?\n")  
+#condition functions in place  
 if first_ask == "in the bedroom":
     second_ask = input("Where in the bedroom should I look?\n")
     if second_ask == "under the bed":

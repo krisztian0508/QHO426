@@ -2,7 +2,7 @@
 numbers_to_sum = int(input("How many numbers should I sum up?\n"))
 
 # Declare a control variable
-summed = 0
+summed = 1
 
 # space bewtween rows
 print()
@@ -10,7 +10,7 @@ print()
 # Sum numbers
 total = 0
 
-while (summed < numbers_to_sum):
+while (summed <= numbers_to_sum):
     print("Please enter number", summed, "of", numbers_to_sum, ":")
     number = int(input())
     total += number
