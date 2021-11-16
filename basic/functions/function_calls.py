@@ -1,13 +1,14 @@
 
 def display_box(word):
+  #ascii
     num_dashes = 4 + len(word)
     print("-" * num_dashes)
     print("| {} |".format(word))
     print("-" * num_dashes)
-
+#lower case
 def display_lower_case(word):
     print(word.lower())
-
+#upper case
 def display_upper_case(word):
     print(word.upper())
 
