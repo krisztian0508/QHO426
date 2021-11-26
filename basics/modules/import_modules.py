@@ -26,7 +26,7 @@ def run():
         print("[a] Run 'Block A: Basics' programs")
         print("[q] Quit")
         response = input()
-#Condition to run block a or quit the programa
+#Condition to run block a or quit the program
         if (response == "a"):
             run_block_a()
         elif (response == "q"):
