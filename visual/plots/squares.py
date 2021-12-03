@@ -1,30 +1,3 @@
-
-
-"""def search(file_path):
-  print("Searching...")
-  with open(file_path) as file:
-    for line in file.readlines():
-      print(f"Looked in {line.strip()}")
-  print("...Done!")
-
-def run():
-  search("locations.txt")
-
-run()"""
-
-
-'''import matplotlib.pyplot as plt
-def display(x, y):
-  plt.plot(x, y,'o')
-  plt.show()
-
-def run():
-  x = [1, 2, 3, 4, 5]
-  y = [1, 4, 9, 16, 25]
-  #running the first func
-  display(x, y)
-run()'''
-
 import matplotlib.pyplot as plt
 
 def small():
@@ -49,3 +22,20 @@ def run():
   plt.show()
   
 run()
+
+'''We wish to create a program to display the path Beep and Bop are taking through Robo City.
+
+The program should consist of the following three functions:
+
+The first function should be named small and should have no parameters. 
+The function should display a small square using a line plot. 
+The line should be a red dotted line with circle markers. 
+
+The second function should be named medium and should have no parameters.  
+The function should display a medium square around the small square using a line plot. 
+The line should be a green dashed line with square markers. 
+
+The third function should be named large and should have no parameters. 
+The function should display a large square around the medium square using a line  plot. 
+The line should be a blue solid line with pentagon markers. 
+'''
