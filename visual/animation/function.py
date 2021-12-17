@@ -72,11 +72,13 @@ import matplotlib.animation as animation
 fig, ax = plt.subplots()
     
 def animate(frame): 
-  # your code here 
-  print(f'Frame: {frame}')
+  # print the frame
+  print(frame)
+
 def run():
   global fig  
-  # your code here (use fig with animation function)
+  # plt.subplot = fig and ax
+  #give values for frame and interval
   fig, ax = plt.subplots()
   simple_animation = animation.FuncAnimation(fig, animate, frames = 10, interval = 1000)
   plt.show()
